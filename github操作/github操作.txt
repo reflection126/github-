@@ -8,7 +8,6 @@
 添加 SSH key 成功后，就有权限向 GitHub 提交自己的项目代码了，提交代码有两种方法：
 
 （1）Clone自己的项目
-
 此处以我在 GitHub 上创建的 test 项目为例，执行如下命令：
 
 git clone git@github.com:stormzhang/test.git
@@ -55,5 +54,4 @@ git config —global user.name "stormzhang"
 git config —global user.email "stormzhang.dev@gmail.com"
 
 总结
-
 通过本课时的介绍，终于可以成功的向 GitHub 提交代码了，但是相信大家还有很多疑问，比如关于分支的理解与使用，比如 Git 的其他一些有用的配置，比如怎么向一些开源项目贡献代码，发起 Pull Request 等，之后的系列文章会逐一进行介绍。
