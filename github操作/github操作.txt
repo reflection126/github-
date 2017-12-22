@@ -1,7 +1,8 @@
-将本地的项目上传到一个新的github仓库的操作：
-1.查看当前项目有哪些远程仓库：
-	git remote -v
-2.删除所有远程仓库:
-	git remote rm origin
-3.git remote add origin git@git
-
+1.新建仓库，将仓库克隆岛本地
+2.在本地打开仓库，修改之后保存
+3.在终端命令中进入仓库
+ (1)1git status
+ (2)git add .
+ (3)git commit -m”修改说明”
+ (4)git pull origin master
+ (5)git push origin master
